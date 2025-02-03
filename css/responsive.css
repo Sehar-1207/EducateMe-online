@@ -1,0 +1,126 @@
+@media only screen and (max-width:1140px) {
+    .logo {
+        width: 30%;
+    }
+
+    .navlist {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 310px;
+        transition: all 0.7s ease-out;
+        flex-direction: column;
+    }
+
+    .navright {
+        text-align: center;
+    }
+
+    .navlist li {
+        padding: 10px 15px;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .navheight {
+        height: 69px;
+    }
+
+    .vresp {
+        opacity: 0;
+    }
+
+    .mainbox {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .textbig {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .textsmall {
+        text-align: center;
+        font-size: 17px;
+    }
+    .buttons{
+        justify-content: center;
+        text-align: center;
+    }
+    .btn {
+        padding: 4px 7px;
+        margin: 12px 3px;
+        font-size: 15px;
+    }
+
+    .paras {
+        padding: 0px 2px;
+    }
+
+    .section {
+        flex-direction: column-reverse;
+        height: auto;
+        margin: 5px auto;
+        max-width: 90%;
+    }
+
+    .sectiontag {
+        padding: 12px;
+    }
+
+    .coursection {
+        height: auto;
+    }
+
+    .coursecontainer {
+        gap: 40px;
+    }
+
+    .course {
+        width: 200px;
+    }
+
+    .bookimg {
+        height: 130px;
+    }
+
+    .text {
+        padding-top: 10px;
+        font-size: 35px;
+    }
+
+    .firstsection {
+        height: 80vh;
+    }
+
+    .secondhalf img {
+        width: 50%;
+    }
+
+    form {
+        height: 510px;
+    }
+
+    .forminput {
+        margin: 13px auto;
+        font-size: 16px;
+    }
+
+    .ftext {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+}
+
+/* ---------------------------------------------------------- */

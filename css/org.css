@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ====================== Nav Bar and logo ==================================== */
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 55px;
+    margin: 2px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.navlist {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+}
+
+.navlist li a:hover {
+    color: grey;
+}
+
+.navright {
+    width: 40%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 9px;
+    font-size: 17px;
+    font-family: "Roboto", serif;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^background text and images^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+.background {
+    background: rgba(0, 0, 0, 0.6) url('../img/londonbg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.mainbox {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    max-width: 50%;
+}
+
+.firsthalf {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 150px;
+}
+
+.textbig {
+    font-size: 38px;
+}
+
+.textsmall {
+    font-size: 20px;
+    font-family: "Roboto", serif;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-size: 19px;
+    font-family: "Roboto", serif;
+}
+
+.btnsmall {
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: "Roboto", serif;
+}
+
+.darkbtn {
+    border: 2px solid grey;
+    color: black;
+    font-size: 19px;
+}
+
+/* *******************************************Text Sections**************************************************** */
+
+.section {
+    max-width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.sectiontag {
+    padding: 16px 0;
+}
+
+.thumbnail img {
+    width: 230px;
+    border: 2p solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.middle {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0 50px;
+    font-family: "Roboto", serif;
+
+}
+
+.sectiondivider {
+    border: none;
+    height: 3px;
+    background-color: #ddd;
+    margin: 24px 0;
+}
+
+.sectiondivider::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+/* --------------------------------------- Course Section ------------------------------------------------------- */
+
+.coursection {
+    background: #f9f9f9;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", serif;
+}
+
+.coursecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+}
+
+.course {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    background-color: #ffffff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding-bottom: 7px;
+}
+
+.course:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.bookimg {
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+
+.cotitle {
+    font-size: 1.5rem;
+    margin: 13px 0;
+    text-align: center;
+    color: #333;
+}
+
+.cobtn {
+    padding: 11px 21px;
+    margin: 6px auto;
+    background: grey;
+    background-color: #66635a;
+    border-radius: 23px;
+    font-size: 18px;
+}
+
+/* ================================================== Contact Section =============================================== */
+
+.contactsection {
+    background: #ffffff;
+}
+
+.text {
+    text-align: center;
+    padding-top: 4px;
+    font-size: 38px;
+    font-family: "Roboto", serif;
+    padding-top: 14px;
+}
+
+form {
+    height: 550px;
+    margin: auto;
+    width: 40%;
+    margin-top: 24px;
+}
+
+.forminput {
+    width: 100%;
+    margin: 15px;
+    padding: 5px 3px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 7px;
+    font-size: 19px;
+}
+
+.ftext {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 12px 0;
+    font-family: "Ubuntu", serif;
+}
+/* ================= burger ======================== */
+.burger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    cursor: pointer;
+}
+.line{
+    background:white;
+    margin: 5px 3px;
+    width: 33px;
+    height: 4px;
+}
